@@ -81,7 +81,7 @@ public class Level : MonoBehaviour
    
     private void Update()
     {
-
+      //  Debug.Log(groundList.Count);
         if (game_state == Game_State.Playing)
         {
              HandlePipeMovement();
@@ -208,7 +208,7 @@ public class Level : MonoBehaviour
 
         Ground ground = new Ground(ground_instantiate);
         groundList.Add(ground);
-   
+        Debug.Log(groundList.Count);
     }
 
    

@@ -49,6 +49,8 @@ MonoBehaviour:
     type: 3}
   scoreCollider: {fileID: 5032967112667598378, guid: 9aa5dbc293d9dd74f8fea6e38b494d89,
     type: 3}
+  pfGround: {fileID: 2870750216563912910, guid: a2ca6a2e7441c234484033ce6317d579,
+    type: 3}
   soundmanagerclipArray:
   - sound: 0
     audioClip: {fileID: 8300000, guid: 98180c6e462e607418d56d13fd9ec3ca, type: 3}
